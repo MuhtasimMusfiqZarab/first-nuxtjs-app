@@ -15,9 +15,9 @@ export default {
       userId: ""
     };
   },
-  // programmatic navigation for userId input
   methods: {
     onLoadUser() {
+      // programmatic navigation for userId input
       this.$router.push(`/users/${this.userId}`);
     }
   }
