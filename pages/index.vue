@@ -1,5 +1,7 @@
 <template>
-  <div class="container">This is the server rendered app!</div>
+  <div class="container">
+    <nuxt-link to="/users">users</nuxt-link>
+  </div>
 </template>
 
 <script>
