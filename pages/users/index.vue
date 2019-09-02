@@ -1,5 +1,7 @@
 <template>
-  <div>Please enter an id to see the user</div>
+  <div>
+    <div>Please enter an id to see the user</div>
+  </div>
 </template>
 
 <script>
