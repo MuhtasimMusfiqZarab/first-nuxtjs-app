@@ -22,6 +22,8 @@ export default {
       // programmatic navigation for userId input
       this.$router.push(`/users/${this.userId}`);
     }
-  }
+  },
+  // this is special property understood by nuxt to be used for styling this component (inside layout folder)
+  layout: "users"
 };
 </script>
